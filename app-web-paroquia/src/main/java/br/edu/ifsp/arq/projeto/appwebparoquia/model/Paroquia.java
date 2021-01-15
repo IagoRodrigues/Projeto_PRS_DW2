@@ -1,13 +1,24 @@
 package br.edu.ifsp.arq.projeto.appwebparoquia.model;
 
+/**
+ * Essa classe descreve o escopo de Paroquia na aplicacao.
+ * 
+ * Toda Paroquia possui o(s) campo(s):
+ * Sobre, telefone e email
+ * 
+ * @author User
+ *
+ */
 public class Paroquia {
 	
+	//Atributos
 	private String sobre;
 	private String telefone;
 	private String email;
 	
 	private Endereco endereco;
 	
+	//Getters e Setters
 	public String getSobre() {
 		return sobre;
 	}

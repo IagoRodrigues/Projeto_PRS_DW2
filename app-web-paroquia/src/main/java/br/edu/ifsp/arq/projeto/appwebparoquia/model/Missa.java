@@ -1,14 +1,23 @@
 package br.edu.ifsp.arq.projeto.appwebparoquia.model;
 
+/**
+ * Essa classe descreve o escopo de Missa para nossa aplicacao.
+ * 
+ * Toda Missa possui o(s) campo(s):
+ * horario
+ * @author User
+ *
+ */
 public class Missa {
+	//Atributos:
+	private String horario;
 	
-	private String horário;
-	
-	public String getHorário() {
-		return horário;
+	//Getters e Setters:
+	public String getHorario() {
+		return horario;
 	}
 
-	public void setHorário(String horário) {
-		this.horário = horário;
+	public void setHorario(String horario) {
+		this.horario = horario;
 	}
 }
